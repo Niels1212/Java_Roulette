@@ -68,7 +68,7 @@ public class Player {
         } catch (FileNotFoundException e) {
             System.out.println("No previous data found for " + playerName + ", starting with default balance.");
         }
-        return new Player(playerName, 400); // Default balance if no file found
+        return new Player(playerName, 500); // Default balance if no file found
     }
 
 }
